@@ -196,7 +196,7 @@
             // 
             this.btn小畫家.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn小畫家.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn小畫家.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btn小畫家.Location = new System.Drawing.Point(54, 399);
             this.btn小畫家.Name = "btn小畫家";
             this.btn小畫家.Size = new System.Drawing.Size(137, 31);
