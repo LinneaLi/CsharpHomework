@@ -171,5 +171,23 @@
   <ItemGroup>
     <None Include="Properties\MyPIC.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zebra.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beer-mug.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tequila-shot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alcohol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wine-bottle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wine-glasses.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

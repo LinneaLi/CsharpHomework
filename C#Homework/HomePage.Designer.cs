@@ -63,7 +63,7 @@
             // 
             // SC1.Panel1
             // 
-            this.SC1.Panel1.BackColor = System.Drawing.Color.NavajoWhite;
+            this.SC1.Panel1.BackColor = System.Drawing.Color.Olive;
             this.SC1.Panel1.Controls.Add(this.lab_Top);
             // 
             // SC1.Panel2
@@ -77,7 +77,8 @@
             // 
             this.lab_Top.AutoSize = true;
             this.lab_Top.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.lab_Top.Location = new System.Drawing.Point(185, 50);
+            this.lab_Top.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.lab_Top.Location = new System.Drawing.Point(175, 39);
             this.lab_Top.Name = "lab_Top";
             this.lab_Top.Size = new System.Drawing.Size(73, 24);
             this.lab_Top.TabIndex = 0;
@@ -93,7 +94,7 @@
             // 
             this.SC2.Panel1.AllowDrop = true;
             this.SC2.Panel1.AutoScroll = true;
-            this.SC2.Panel1.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.SC2.Panel1.BackColor = System.Drawing.Color.DarkKhaki;
             this.SC2.Panel1.Controls.Add(this.btnStuGrade);
             this.SC2.Panel1.Controls.Add(this.btnStuStruct);
             this.SC2.Panel1.Controls.Add(this.btnPOS);
@@ -113,19 +114,21 @@
             // SC2.Panel2
             // 
             this.SC2.Panel2.BackColor = System.Drawing.Color.PapayaWhip;
+            this.SC2.Panel2.BackgroundImage = global::C_Homework.Properties.Resources.zebra;
+            this.SC2.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.SC2.Panel2.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.SC2.Size = new System.Drawing.Size(1139, 550);
-            this.SC2.SplitterDistance = 297;
+            this.SC2.SplitterDistance = 236;
             this.SC2.TabIndex = 0;
             // 
             // btnStuGrade
             // 
             this.btnStuGrade.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnStuGrade.Font = new System.Drawing.Font("Bradley Hand ITC", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnStuGrade.Location = new System.Drawing.Point(54, 177);
+            this.btnStuGrade.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnStuGrade.Location = new System.Drawing.Point(41, 174);
             this.btnStuGrade.Name = "btnStuGrade";
-            this.btnStuGrade.Size = new System.Drawing.Size(137, 31);
+            this.btnStuGrade.Size = new System.Drawing.Size(158, 31);
             this.btnStuGrade.TabIndex = 14;
             this.btnStuGrade.Text = "Students  Grade";
             this.btnStuGrade.UseVisualStyleBackColor = true;
@@ -134,10 +137,10 @@
             // 
             this.btnStuStruct.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnStuStruct.Font = new System.Drawing.Font("Bradley Hand ITC", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnStuStruct.Location = new System.Drawing.Point(54, 129);
+            this.btnStuStruct.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnStuStruct.Location = new System.Drawing.Point(41, 126);
             this.btnStuStruct.Name = "btnStuStruct";
-            this.btnStuStruct.Size = new System.Drawing.Size(137, 42);
+            this.btnStuStruct.Size = new System.Drawing.Size(158, 42);
             this.btnStuStruct.TabIndex = 13;
             this.btnStuStruct.Text = "Student  Struct  Form";
             this.btnStuStruct.UseVisualStyleBackColor = true;
@@ -147,10 +150,10 @@
             // 
             this.btnPOS.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnPOS.Font = new System.Drawing.Font("Bradley Hand ITC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPOS.Location = new System.Drawing.Point(54, 92);
+            this.btnPOS.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPOS.Location = new System.Drawing.Point(41, 89);
             this.btnPOS.Name = "btnPOS";
-            this.btnPOS.Size = new System.Drawing.Size(137, 31);
+            this.btnPOS.Size = new System.Drawing.Size(158, 31);
             this.btnPOS.TabIndex = 12;
             this.btnPOS.Text = "POS";
             this.btnPOS.UseVisualStyleBackColor = true;
@@ -160,10 +163,10 @@
             // 
             this.btn_TestAlarm.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_TestAlarm.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_TestAlarm.Location = new System.Drawing.Point(54, 510);
+            this.btn_TestAlarm.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn_TestAlarm.Location = new System.Drawing.Point(41, 507);
             this.btn_TestAlarm.Name = "btn_TestAlarm";
-            this.btn_TestAlarm.Size = new System.Drawing.Size(137, 31);
+            this.btn_TestAlarm.Size = new System.Drawing.Size(158, 31);
             this.btn_TestAlarm.TabIndex = 11;
             this.btn_TestAlarm.Text = "考試_Alarm";
             this.btn_TestAlarm.UseVisualStyleBackColor = true;
@@ -172,10 +175,10 @@
             // 
             this.btn_TestGuess.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_TestGuess.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_TestGuess.Location = new System.Drawing.Point(54, 473);
+            this.btn_TestGuess.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn_TestGuess.Location = new System.Drawing.Point(41, 470);
             this.btn_TestGuess.Name = "btn_TestGuess";
-            this.btn_TestGuess.Size = new System.Drawing.Size(137, 31);
+            this.btn_TestGuess.Size = new System.Drawing.Size(158, 31);
             this.btn_TestGuess.TabIndex = 10;
             this.btn_TestGuess.Text = "考試_Guess";
             this.btn_TestGuess.UseVisualStyleBackColor = true;
@@ -184,10 +187,10 @@
             // 
             this.btnPictureViewer.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnPictureViewer.Font = new System.Drawing.Font("Bradley Hand ITC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPictureViewer.Location = new System.Drawing.Point(54, 436);
+            this.btnPictureViewer.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPictureViewer.Location = new System.Drawing.Point(41, 433);
             this.btnPictureViewer.Name = "btnPictureViewer";
-            this.btnPictureViewer.Size = new System.Drawing.Size(137, 31);
+            this.btnPictureViewer.Size = new System.Drawing.Size(158, 31);
             this.btnPictureViewer.TabIndex = 9;
             this.btnPictureViewer.Text = "PictureViewer";
             this.btnPictureViewer.UseVisualStyleBackColor = true;
@@ -196,10 +199,10 @@
             // 
             this.btn小畫家.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn小畫家.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btn小畫家.Location = new System.Drawing.Point(54, 399);
+            this.btn小畫家.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn小畫家.Location = new System.Drawing.Point(41, 396);
             this.btn小畫家.Name = "btn小畫家";
-            this.btn小畫家.Size = new System.Drawing.Size(137, 31);
+            this.btn小畫家.Size = new System.Drawing.Size(158, 31);
             this.btn小畫家.TabIndex = 8;
             this.btn小畫家.Text = "小畫家";
             this.btn小畫家.UseVisualStyleBackColor = true;
@@ -209,10 +212,10 @@
             // 
             this.btnNotePad.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnNotePad.Font = new System.Drawing.Font("Bradley Hand ITC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNotePad.Location = new System.Drawing.Point(54, 362);
+            this.btnNotePad.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNotePad.Location = new System.Drawing.Point(41, 359);
             this.btnNotePad.Name = "btnNotePad";
-            this.btnNotePad.Size = new System.Drawing.Size(137, 31);
+            this.btnNotePad.Size = new System.Drawing.Size(158, 31);
             this.btnNotePad.TabIndex = 7;
             this.btnNotePad.Text = "NotePad";
             this.btnNotePad.UseVisualStyleBackColor = true;
@@ -221,10 +224,10 @@
             // 
             this.btnScreenSaver.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnScreenSaver.Font = new System.Drawing.Font("Bradley Hand ITC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnScreenSaver.Location = new System.Drawing.Point(54, 325);
+            this.btnScreenSaver.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnScreenSaver.Location = new System.Drawing.Point(41, 322);
             this.btnScreenSaver.Name = "btnScreenSaver";
-            this.btnScreenSaver.Size = new System.Drawing.Size(137, 31);
+            this.btnScreenSaver.Size = new System.Drawing.Size(158, 31);
             this.btnScreenSaver.TabIndex = 6;
             this.btnScreenSaver.Text = "ScreenSaver";
             this.btnScreenSaver.UseVisualStyleBackColor = true;
@@ -234,10 +237,10 @@
             // 
             this.btnXOGame.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnXOGame.Font = new System.Drawing.Font("Bradley Hand ITC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnXOGame.Location = new System.Drawing.Point(54, 288);
+            this.btnXOGame.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXOGame.Location = new System.Drawing.Point(41, 285);
             this.btnXOGame.Name = "btnXOGame";
-            this.btnXOGame.Size = new System.Drawing.Size(137, 31);
+            this.btnXOGame.Size = new System.Drawing.Size(158, 31);
             this.btnXOGame.TabIndex = 5;
             this.btnXOGame.Text = "XOGame";
             this.btnXOGame.UseVisualStyleBackColor = true;
@@ -246,10 +249,10 @@
             // 
             this.btnForDoWhile.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnForDoWhile.Font = new System.Drawing.Font("Bradley Hand ITC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnForDoWhile.Location = new System.Drawing.Point(54, 251);
+            this.btnForDoWhile.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnForDoWhile.Location = new System.Drawing.Point(41, 248);
             this.btnForDoWhile.Name = "btnForDoWhile";
-            this.btnForDoWhile.Size = new System.Drawing.Size(137, 31);
+            this.btnForDoWhile.Size = new System.Drawing.Size(158, 31);
             this.btnForDoWhile.TabIndex = 4;
             this.btnForDoWhile.Text = "ForDoWhile";
             this.btnForDoWhile.UseVisualStyleBackColor = true;
@@ -258,10 +261,10 @@
             // 
             this.btnMyClac.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnMyClac.Font = new System.Drawing.Font("Bradley Hand ITC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMyClac.Location = new System.Drawing.Point(54, 214);
+            this.btnMyClac.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMyClac.Location = new System.Drawing.Point(41, 211);
             this.btnMyClac.Name = "btnMyClac";
-            this.btnMyClac.Size = new System.Drawing.Size(137, 31);
+            this.btnMyClac.Size = new System.Drawing.Size(158, 31);
             this.btnMyClac.TabIndex = 3;
             this.btnMyClac.Text = "MyClac";
             this.btnMyClac.UseVisualStyleBackColor = true;
@@ -271,10 +274,10 @@
             // 
             this.btnLoan.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnLoan.Font = new System.Drawing.Font("Bradley Hand ITC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLoan.Location = new System.Drawing.Point(54, 55);
+            this.btnLoan.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLoan.Location = new System.Drawing.Point(41, 52);
             this.btnLoan.Name = "btnLoan";
-            this.btnLoan.Size = new System.Drawing.Size(137, 31);
+            this.btnLoan.Size = new System.Drawing.Size(158, 31);
             this.btnLoan.TabIndex = 1;
             this.btnLoan.Text = "Loan";
             this.btnLoan.UseVisualStyleBackColor = true;
@@ -284,10 +287,10 @@
             // 
             this.btnHello.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnHello.Font = new System.Drawing.Font("Bradley Hand ITC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHello.Location = new System.Drawing.Point(54, 18);
+            this.btnHello.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHello.Location = new System.Drawing.Point(41, 15);
             this.btnHello.Name = "btnHello";
-            this.btnHello.Size = new System.Drawing.Size(137, 31);
+            this.btnHello.Size = new System.Drawing.Size(158, 31);
             this.btnHello.TabIndex = 0;
             this.btnHello.Text = "Hello !";
             this.btnHello.UseVisualStyleBackColor = true;

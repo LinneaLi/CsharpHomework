@@ -29,10 +29,6 @@
         private void InitializeComponent()
         {
             this.groupMenu = new System.Windows.Forms.GroupBox();
-            this.btnWine = new System.Windows.Forms.Button();
-            this.btnWisky = new System.Windows.Forms.Button();
-            this.btnTequila = new System.Windows.Forms.Button();
-            this.btnBeer = new System.Windows.Forms.Button();
             this.labMenu = new System.Windows.Forms.Label();
             this.groupTotal = new System.Windows.Forms.GroupBox();
             this.labShowTotal = new System.Windows.Forms.Label();
@@ -46,6 +42,10 @@
             this.list = new System.Windows.Forms.Label();
             this.btnClear = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnWine = new System.Windows.Forms.Button();
+            this.btnWisky = new System.Windows.Forms.Button();
+            this.btnTequila = new System.Windows.Forms.Button();
+            this.btnBeer = new System.Windows.Forms.Button();
             this.groupMenu.SuspendLayout();
             this.groupTotal.SuspendLayout();
             this.groupPay.SuspendLayout();
@@ -66,50 +66,6 @@
             this.groupMenu.Size = new System.Drawing.Size(224, 315);
             this.groupMenu.TabIndex = 0;
             this.groupMenu.TabStop = false;
-            // 
-            // btnWine
-            // 
-            this.btnWine.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnWine.Location = new System.Drawing.Point(126, 176);
-            this.btnWine.Name = "btnWine";
-            this.btnWine.Size = new System.Drawing.Size(76, 103);
-            this.btnWine.TabIndex = 4;
-            this.btnWine.Text = "紅酒 Wine NT320";
-            this.btnWine.UseVisualStyleBackColor = true;
-            this.btnWine.Click += new System.EventHandler(this.btnWine_Click);
-            // 
-            // btnWisky
-            // 
-            this.btnWisky.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnWisky.Location = new System.Drawing.Point(33, 176);
-            this.btnWisky.Name = "btnWisky";
-            this.btnWisky.Size = new System.Drawing.Size(76, 103);
-            this.btnWisky.TabIndex = 3;
-            this.btnWisky.Text = "威士忌 Wisky NT350";
-            this.btnWisky.UseVisualStyleBackColor = true;
-            this.btnWisky.Click += new System.EventHandler(this.btnWisky_Click);
-            // 
-            // btnTequila
-            // 
-            this.btnTequila.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnTequila.Location = new System.Drawing.Point(126, 50);
-            this.btnTequila.Name = "btnTequila";
-            this.btnTequila.Size = new System.Drawing.Size(76, 103);
-            this.btnTequila.TabIndex = 2;
-            this.btnTequila.Text = "龍舌蘭 Tequila NT180";
-            this.btnTequila.UseVisualStyleBackColor = true;
-            this.btnTequila.Click += new System.EventHandler(this.btnTequila_Click);
-            // 
-            // btnBeer
-            // 
-            this.btnBeer.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnBeer.Location = new System.Drawing.Point(33, 50);
-            this.btnBeer.Name = "btnBeer";
-            this.btnBeer.Size = new System.Drawing.Size(76, 103);
-            this.btnBeer.TabIndex = 1;
-            this.btnBeer.Text = "啤酒 BEER NT120";
-            this.btnBeer.UseVisualStyleBackColor = true;
-            this.btnBeer.Click += new System.EventHandler(this.btnBeer_Click);
             // 
             // labMenu
             // 
@@ -254,6 +210,59 @@
             this.label1.Size = new System.Drawing.Size(104, 21);
             this.label1.TabIndex = 7;
             this.label1.Text = "購物清單 List";
+            // 
+            // btnWine
+            // 
+            this.btnWine.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnWine.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnWine.Image = global::C_Homework.Properties.Resources.wine_glasses;
+            this.btnWine.Location = new System.Drawing.Point(126, 176);
+            this.btnWine.Name = "btnWine";
+            this.btnWine.Size = new System.Drawing.Size(76, 103);
+            this.btnWine.TabIndex = 4;
+            this.btnWine.Text = "紅酒 Wine NT320";
+            this.btnWine.UseVisualStyleBackColor = false;
+            this.btnWine.Click += new System.EventHandler(this.btnWine_Click);
+            // 
+            // btnWisky
+            // 
+            this.btnWisky.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnWisky.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnWisky.Image = global::C_Homework.Properties.Resources.alcohol;
+            this.btnWisky.Location = new System.Drawing.Point(33, 176);
+            this.btnWisky.Name = "btnWisky";
+            this.btnWisky.Size = new System.Drawing.Size(76, 103);
+            this.btnWisky.TabIndex = 3;
+            this.btnWisky.Text = "威士忌 Whisky NT350";
+            this.btnWisky.UseVisualStyleBackColor = false;
+            this.btnWisky.Click += new System.EventHandler(this.btnWisky_Click);
+            // 
+            // btnTequila
+            // 
+            this.btnTequila.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnTequila.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnTequila.Image = global::C_Homework.Properties.Resources.tequila_shot;
+            this.btnTequila.Location = new System.Drawing.Point(126, 50);
+            this.btnTequila.Name = "btnTequila";
+            this.btnTequila.Size = new System.Drawing.Size(76, 103);
+            this.btnTequila.TabIndex = 2;
+            this.btnTequila.Text = "龍舌蘭 Tequila NT180";
+            this.btnTequila.UseVisualStyleBackColor = false;
+            this.btnTequila.Click += new System.EventHandler(this.btnTequila_Click);
+            // 
+            // btnBeer
+            // 
+            this.btnBeer.BackColor = System.Drawing.Color.White;
+            this.btnBeer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnBeer.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnBeer.Image = global::C_Homework.Properties.Resources.beer_mug;
+            this.btnBeer.Location = new System.Drawing.Point(33, 50);
+            this.btnBeer.Name = "btnBeer";
+            this.btnBeer.Size = new System.Drawing.Size(76, 103);
+            this.btnBeer.TabIndex = 1;
+            this.btnBeer.Text = "啤酒 BEER NT120";
+            this.btnBeer.UseVisualStyleBackColor = false;
+            this.btnBeer.Click += new System.EventHandler(this.btnBeer_Click);
             // 
             // POS
             // 
