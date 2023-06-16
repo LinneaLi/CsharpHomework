@@ -84,5 +84,14 @@ namespace C_Homework
             SC2.Panel2.Controls.Add(frm07);
             frm07.Show();
         }
+
+        private void btnPictureViewer_Click(object sender, EventArgs e)
+        {
+            SC2.Panel2.Controls.Clear();
+            PictureViewer frm08 = new PictureViewer();
+            frm08.TopLevel = false;
+            SC2.Panel2.Controls.Add(frm08);
+            frm08.Show();
+        }
     }
 }

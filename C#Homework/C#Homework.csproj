@@ -59,6 +59,12 @@
     <Compile Include="HomePage.Designer.cs">
       <DependentUpon>HomePage.cs</DependentUpon>
     </Compile>
+    <Compile Include="ImageViewerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImageViewerForm.Designer.cs">
+      <DependentUpon>ImageViewerForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoanReport.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +82,12 @@
     </Compile>
     <Compile Include="Notepad.Designer.cs">
       <DependentUpon>Notepad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PictureViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PictureViewer.Designer.cs">
+      <DependentUpon>PictureViewer.cs</DependentUpon>
     </Compile>
     <Compile Include="POS.cs">
       <SubType>Form</SubType>
@@ -115,6 +127,9 @@
     <EmbeddedResource Include="HomePage.resx">
       <DependentUpon>HomePage.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ImageViewerForm.resx">
+      <DependentUpon>ImageViewerForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoanReport.resx">
       <DependentUpon>LoanReport.cs</DependentUpon>
     </EmbeddedResource>
@@ -123,6 +138,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Notepad.resx">
       <DependentUpon>Notepad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PictureViewer.resx">
+      <DependentUpon>PictureViewer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="POS.resx">
       <DependentUpon>POS.cs</DependentUpon>
@@ -188,6 +206,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\wine-glasses.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p7.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

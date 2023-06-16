@@ -125,175 +125,188 @@
             // 
             this.btnStuGrade.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnStuGrade.BackColor = System.Drawing.Color.DarkKhaki;
             this.btnStuGrade.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnStuGrade.Location = new System.Drawing.Point(41, 174);
             this.btnStuGrade.Name = "btnStuGrade";
             this.btnStuGrade.Size = new System.Drawing.Size(158, 31);
             this.btnStuGrade.TabIndex = 14;
             this.btnStuGrade.Text = "Students  Grade";
-            this.btnStuGrade.UseVisualStyleBackColor = true;
+            this.btnStuGrade.UseVisualStyleBackColor = false;
             // 
             // btnStuStruct
             // 
             this.btnStuStruct.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnStuStruct.BackColor = System.Drawing.Color.DarkKhaki;
             this.btnStuStruct.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnStuStruct.Location = new System.Drawing.Point(41, 126);
             this.btnStuStruct.Name = "btnStuStruct";
             this.btnStuStruct.Size = new System.Drawing.Size(158, 42);
             this.btnStuStruct.TabIndex = 13;
             this.btnStuStruct.Text = "Student  Struct  Form";
-            this.btnStuStruct.UseVisualStyleBackColor = true;
+            this.btnStuStruct.UseVisualStyleBackColor = false;
             this.btnStuStruct.Click += new System.EventHandler(this.btnStuStruct_Click);
             // 
             // btnPOS
             // 
             this.btnPOS.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnPOS.BackColor = System.Drawing.Color.DarkKhaki;
             this.btnPOS.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPOS.Location = new System.Drawing.Point(41, 89);
             this.btnPOS.Name = "btnPOS";
             this.btnPOS.Size = new System.Drawing.Size(158, 31);
             this.btnPOS.TabIndex = 12;
             this.btnPOS.Text = "POS";
-            this.btnPOS.UseVisualStyleBackColor = true;
+            this.btnPOS.UseVisualStyleBackColor = false;
             this.btnPOS.Click += new System.EventHandler(this.btnPOS_Click);
             // 
             // btn_TestAlarm
             // 
             this.btn_TestAlarm.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_TestAlarm.BackColor = System.Drawing.Color.DarkKhaki;
             this.btn_TestAlarm.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btn_TestAlarm.Location = new System.Drawing.Point(41, 507);
             this.btn_TestAlarm.Name = "btn_TestAlarm";
             this.btn_TestAlarm.Size = new System.Drawing.Size(158, 31);
             this.btn_TestAlarm.TabIndex = 11;
             this.btn_TestAlarm.Text = "考試_Alarm";
-            this.btn_TestAlarm.UseVisualStyleBackColor = true;
+            this.btn_TestAlarm.UseVisualStyleBackColor = false;
             // 
             // btn_TestGuess
             // 
             this.btn_TestGuess.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_TestGuess.BackColor = System.Drawing.Color.DarkKhaki;
             this.btn_TestGuess.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btn_TestGuess.Location = new System.Drawing.Point(41, 470);
             this.btn_TestGuess.Name = "btn_TestGuess";
             this.btn_TestGuess.Size = new System.Drawing.Size(158, 31);
             this.btn_TestGuess.TabIndex = 10;
             this.btn_TestGuess.Text = "考試_Guess";
-            this.btn_TestGuess.UseVisualStyleBackColor = true;
+            this.btn_TestGuess.UseVisualStyleBackColor = false;
             // 
             // btnPictureViewer
             // 
             this.btnPictureViewer.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnPictureViewer.BackColor = System.Drawing.Color.DarkKhaki;
             this.btnPictureViewer.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPictureViewer.Location = new System.Drawing.Point(41, 433);
             this.btnPictureViewer.Name = "btnPictureViewer";
             this.btnPictureViewer.Size = new System.Drawing.Size(158, 31);
             this.btnPictureViewer.TabIndex = 9;
             this.btnPictureViewer.Text = "PictureViewer";
-            this.btnPictureViewer.UseVisualStyleBackColor = true;
+            this.btnPictureViewer.UseVisualStyleBackColor = false;
+            this.btnPictureViewer.Click += new System.EventHandler(this.btnPictureViewer_Click);
             // 
             // btn小畫家
             // 
             this.btn小畫家.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn小畫家.BackColor = System.Drawing.Color.DarkKhaki;
             this.btn小畫家.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btn小畫家.Location = new System.Drawing.Point(41, 396);
             this.btn小畫家.Name = "btn小畫家";
             this.btn小畫家.Size = new System.Drawing.Size(158, 31);
             this.btn小畫家.TabIndex = 8;
             this.btn小畫家.Text = "小畫家";
-            this.btn小畫家.UseVisualStyleBackColor = true;
+            this.btn小畫家.UseVisualStyleBackColor = false;
             this.btn小畫家.Click += new System.EventHandler(this.btn小畫家_Click);
             // 
             // btnNotePad
             // 
             this.btnNotePad.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnNotePad.BackColor = System.Drawing.Color.DarkKhaki;
             this.btnNotePad.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNotePad.Location = new System.Drawing.Point(41, 359);
             this.btnNotePad.Name = "btnNotePad";
             this.btnNotePad.Size = new System.Drawing.Size(158, 31);
             this.btnNotePad.TabIndex = 7;
             this.btnNotePad.Text = "NotePad";
-            this.btnNotePad.UseVisualStyleBackColor = true;
+            this.btnNotePad.UseVisualStyleBackColor = false;
             // 
             // btnScreenSaver
             // 
             this.btnScreenSaver.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnScreenSaver.BackColor = System.Drawing.Color.DarkKhaki;
             this.btnScreenSaver.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnScreenSaver.Location = new System.Drawing.Point(41, 322);
             this.btnScreenSaver.Name = "btnScreenSaver";
             this.btnScreenSaver.Size = new System.Drawing.Size(158, 31);
             this.btnScreenSaver.TabIndex = 6;
             this.btnScreenSaver.Text = "ScreenSaver";
-            this.btnScreenSaver.UseVisualStyleBackColor = true;
+            this.btnScreenSaver.UseVisualStyleBackColor = false;
             this.btnScreenSaver.Click += new System.EventHandler(this.btnScreenSaver_Click);
             // 
             // btnXOGame
             // 
             this.btnXOGame.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnXOGame.BackColor = System.Drawing.Color.DarkKhaki;
             this.btnXOGame.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXOGame.Location = new System.Drawing.Point(41, 285);
             this.btnXOGame.Name = "btnXOGame";
             this.btnXOGame.Size = new System.Drawing.Size(158, 31);
             this.btnXOGame.TabIndex = 5;
             this.btnXOGame.Text = "XOGame";
-            this.btnXOGame.UseVisualStyleBackColor = true;
+            this.btnXOGame.UseVisualStyleBackColor = false;
             // 
             // btnForDoWhile
             // 
             this.btnForDoWhile.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnForDoWhile.BackColor = System.Drawing.Color.DarkKhaki;
             this.btnForDoWhile.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnForDoWhile.Location = new System.Drawing.Point(41, 248);
             this.btnForDoWhile.Name = "btnForDoWhile";
             this.btnForDoWhile.Size = new System.Drawing.Size(158, 31);
             this.btnForDoWhile.TabIndex = 4;
             this.btnForDoWhile.Text = "ForDoWhile";
-            this.btnForDoWhile.UseVisualStyleBackColor = true;
+            this.btnForDoWhile.UseVisualStyleBackColor = false;
             // 
             // btnMyClac
             // 
             this.btnMyClac.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMyClac.BackColor = System.Drawing.Color.DarkKhaki;
             this.btnMyClac.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMyClac.Location = new System.Drawing.Point(41, 211);
             this.btnMyClac.Name = "btnMyClac";
             this.btnMyClac.Size = new System.Drawing.Size(158, 31);
             this.btnMyClac.TabIndex = 3;
             this.btnMyClac.Text = "MyClac";
-            this.btnMyClac.UseVisualStyleBackColor = true;
+            this.btnMyClac.UseVisualStyleBackColor = false;
             this.btnMyClac.Click += new System.EventHandler(this.btnMyClac_Click);
             // 
             // btnLoan
             // 
-            this.btnLoan.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnLoan.BackColor = System.Drawing.Color.DarkKhaki;
             this.btnLoan.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLoan.Location = new System.Drawing.Point(41, 52);
             this.btnLoan.Name = "btnLoan";
             this.btnLoan.Size = new System.Drawing.Size(158, 31);
             this.btnLoan.TabIndex = 1;
             this.btnLoan.Text = "Loan";
-            this.btnLoan.UseVisualStyleBackColor = true;
+            this.btnLoan.UseVisualStyleBackColor = false;
             this.btnLoan.Click += new System.EventHandler(this.btnLoan_Click);
             // 
             // btnHello
             // 
             this.btnHello.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnHello.BackColor = System.Drawing.Color.DarkKhaki;
             this.btnHello.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHello.Location = new System.Drawing.Point(41, 15);
             this.btnHello.Name = "btnHello";
             this.btnHello.Size = new System.Drawing.Size(158, 31);
             this.btnHello.TabIndex = 0;
             this.btnHello.Text = "Hello !";
-            this.btnHello.UseVisualStyleBackColor = true;
+            this.btnHello.UseVisualStyleBackColor = false;
             this.btnHello.Click += new System.EventHandler(this.btnHello_Click);
             // 
             // HomePage
