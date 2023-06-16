@@ -130,7 +130,7 @@
             this.btnStuGrade.FlatAppearance.MouseDownBackColor = System.Drawing.Color.PaleGoldenrod;
             this.btnStuGrade.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleGoldenrod;
             this.btnStuGrade.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnStuGrade.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnStuGrade.Font = new System.Drawing.Font("Comic Sans MS", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnStuGrade.Location = new System.Drawing.Point(41, 174);
             this.btnStuGrade.Name = "btnStuGrade";
             this.btnStuGrade.Size = new System.Drawing.Size(158, 31);
@@ -147,10 +147,10 @@
             this.btnStuStruct.FlatAppearance.MouseDownBackColor = System.Drawing.Color.PaleGoldenrod;
             this.btnStuStruct.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleGoldenrod;
             this.btnStuStruct.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnStuStruct.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnStuStruct.Location = new System.Drawing.Point(21, 126);
+            this.btnStuStruct.Font = new System.Drawing.Font("Comic Sans MS", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnStuStruct.Location = new System.Drawing.Point(12, 126);
             this.btnStuStruct.Name = "btnStuStruct";
-            this.btnStuStruct.Size = new System.Drawing.Size(192, 42);
+            this.btnStuStruct.Size = new System.Drawing.Size(212, 42);
             this.btnStuStruct.TabIndex = 13;
             this.btnStuStruct.Text = "Student  Struct  Form";
             this.btnStuStruct.UseVisualStyleBackColor = false;
@@ -182,12 +182,12 @@
             this.btn_TestAlarm.FlatAppearance.BorderSize = 0;
             this.btn_TestAlarm.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleGoldenrod;
             this.btn_TestAlarm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_TestAlarm.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn_TestAlarm.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_TestAlarm.Location = new System.Drawing.Point(41, 507);
             this.btn_TestAlarm.Name = "btn_TestAlarm";
             this.btn_TestAlarm.Size = new System.Drawing.Size(158, 31);
             this.btn_TestAlarm.TabIndex = 11;
-            this.btn_TestAlarm.Text = "考試_Alarm";
+            this.btn_TestAlarm.Text = "Alarm";
             this.btn_TestAlarm.UseVisualStyleBackColor = false;
             // 
             // btn_TestGuess
@@ -198,12 +198,12 @@
             this.btn_TestGuess.FlatAppearance.BorderSize = 0;
             this.btn_TestGuess.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleGoldenrod;
             this.btn_TestGuess.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_TestGuess.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn_TestGuess.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_TestGuess.Location = new System.Drawing.Point(41, 470);
             this.btn_TestGuess.Name = "btn_TestGuess";
             this.btn_TestGuess.Size = new System.Drawing.Size(158, 31);
             this.btn_TestGuess.TabIndex = 10;
-            this.btn_TestGuess.Text = "考試_Guess";
+            this.btn_TestGuess.Text = "Guess";
             this.btn_TestGuess.UseVisualStyleBackColor = false;
             // 
             // btnPictureViewer
@@ -231,12 +231,12 @@
             this.btn小畫家.FlatAppearance.BorderSize = 0;
             this.btn小畫家.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleGoldenrod;
             this.btn小畫家.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn小畫家.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn小畫家.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn小畫家.Location = new System.Drawing.Point(41, 396);
             this.btn小畫家.Name = "btn小畫家";
             this.btn小畫家.Size = new System.Drawing.Size(158, 31);
             this.btn小畫家.TabIndex = 8;
-            this.btn小畫家.Text = "小畫家";
+            this.btn小畫家.Text = "Painter";
             this.btn小畫家.UseVisualStyleBackColor = false;
             this.btn小畫家.Click += new System.EventHandler(this.btn小畫家_Click);
             // 
@@ -341,8 +341,7 @@
             // 
             // btnHello
             // 
-            this.btnHello.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnHello.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.btnHello.BackColor = System.Drawing.Color.DarkKhaki;
             this.btnHello.FlatAppearance.BorderSize = 0;
             this.btnHello.FlatAppearance.MouseDownBackColor = System.Drawing.Color.PaleGoldenrod;

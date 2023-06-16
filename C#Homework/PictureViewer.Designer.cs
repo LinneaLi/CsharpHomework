@@ -152,6 +152,7 @@
             this.Controls.Add(this.pBox1);
             this.Name = "PictureViewer";
             this.Text = "PictureViewer";
+
             ((System.ComponentModel.ISupportInitialize)(this.pBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBox6)).EndInit();

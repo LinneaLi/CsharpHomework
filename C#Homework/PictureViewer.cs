@@ -72,5 +72,7 @@ namespace C_Homework
             imageViewer.SetImage(pBox8.Image);
             imageViewer.ShowDialog();
         }
+
+       
     }
 }
